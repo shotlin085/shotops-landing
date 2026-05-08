@@ -1,0 +1,44 @@
+:root {
+  color-scheme: light;
+
+  --font-sans-ui: var(--font-inter), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono-ui: "SF Mono", Menlo, Consolas, monospace;
+
+  --shotops-radius-lg: 0.5rem;
+
+  --shotops-border-subtle: rgba(0, 0, 0, 0.06);
+  --shotops-border-default: rgba(0, 0, 0, 0.1);
+  --shotops-border-strong: rgba(0, 0, 0, 0.14);
+  --shotops-border-focus: rgba(37, 99, 235, 0.45);
+
+  --shotops-bg-canvas: #fafafa;
+  --shotops-bg-primary: #ffffff;
+  --shotops-bg-secondary: #f4f4f5;
+  --shotops-bg-tertiary: #e4e4e7;
+
+  --shotops-text-primary: #09090b;
+  --shotops-text-secondary: #52525b;
+  --shotops-text-tertiary: #52525b;
+  --shotops-text-inverse: #fafafa;
+
+  --shotops-accent-default: #4e6900;
+
+  --radius: var(--shotops-radius-lg);
+  --background: var(--shotops-bg-canvas);
+  --foreground: var(--shotops-text-primary);
+  --card: var(--shotops-bg-primary);
+  --card-foreground: var(--shotops-text-primary);
+  --popover: var(--shotops-bg-primary);
+  --popover-foreground: var(--shotops-text-primary);
+  --primary: var(--shotops-accent-default);
+  --primary-foreground: var(--shotops-text-inverse);
+  --secondary: var(--shotops-bg-secondary);
+  --secondary-foreground: var(--shotops-text-primary);
+  --muted: var(--shotops-bg-secondary);
+  --muted-foreground: var(--shotops-text-tertiary);
+  --accent: var(--shotops-bg-tertiary);
+  --accent-foreground: var(--shotops-text-primary);
+  --border: var(--shotops-border-default);
+  --input: var(--shotops-border-strong);
+  --ring: var(--shotops-border-focus);
+}
