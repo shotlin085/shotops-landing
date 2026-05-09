@@ -1,13 +1,7 @@
-const landingUrl = "https://opslin.in";
-const appUrl = "https://appshotops.shotlin.in";
-const docsUrl = "https://docshotops.shotlin.in";
-
 export const siteLinks = {
   brandName: "Opslin",
-  landing: landingUrl,
-  app: appUrl,
-  docs: `${docsUrl}/docs`,
-  login: `${appUrl}/login`,
-  register: `${appUrl}/register`,
-  contactEmail: "hello@shotlin.in",
+  landing: "https://www.opslin.com",
+  contactEmail: "opslin@opslin.com",
+  betaFormUrl: "https://tally.so/r/vGEyY0",
+  thankYouUrl: "https://www.opslin.com/thank-you",
 };

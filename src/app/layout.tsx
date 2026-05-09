@@ -8,7 +8,7 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
-const siteUrl = new URL("https://opslin.in");
+const siteUrl = new URL("https://www.opslin.com");
 
 export const metadata: Metadata = {
   metadataBase: siteUrl,
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://opslin.in",
+    url: "https://www.opslin.com",
     siteName: "Opslin",
     title: "Opslin — Deploy and manage apps on your own VPS",
     description:

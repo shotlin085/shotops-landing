@@ -7,6 +7,7 @@ import { FinalCta } from "@/components/landing/final-cta";
 import { Footer } from "@/components/landing/footer";
 import { Hero } from "@/components/landing/hero";
 import { HowItWorks } from "@/components/landing/how-it-works";
+import { JoinBetaSection } from "@/components/landing/join-beta-section";
 import { Navbar } from "@/components/landing/navbar";
 import { PricingSection } from "@/components/landing/pricing-section";
 import { ProblemSection } from "@/components/landing/problem-section";
@@ -14,6 +15,7 @@ import { SecuritySection } from "@/components/landing/security-section";
 import { SolutionSection } from "@/components/landing/solution-section";
 import { TrustBar } from "@/components/landing/trust-bar";
 import { UseCases } from "@/components/landing/use-cases";
+import { WhyOpslinSection } from "@/components/landing/why-opslin-section";
 import { WorkflowSection } from "@/components/landing/workflow-section";
 import { siteLinks } from "@/lib/site-links";
 
@@ -46,6 +48,7 @@ export default function LandingPage() {
         <TrustBar />
         <ProblemSection />
         <SolutionSection />
+        <WhyOpslinSection />
         <HowItWorks />
         <WorkflowSection />
         <FeatureGrid />
@@ -56,6 +59,7 @@ export default function LandingPage() {
         <BetaTransparency />
         <PricingSection />
         <FaqSection />
+        <JoinBetaSection />
         <FinalCta />
         <Footer />
       </main>

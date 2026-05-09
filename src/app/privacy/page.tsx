@@ -22,7 +22,7 @@ export default function PrivacyPage() {
           <h2 className="text-xl font-semibold">Who Operates Opslin</h2>
           <p className="text-zinc-600 leading-7">
             Opslin is operated by the Opslin team. For any privacy-related questions, contact us
-            at <a href="mailto:hello@shotlin.in" className="text-indigo-600 hover:text-indigo-700 underline">hello@shotlin.in</a>.
+            at <a href="mailto:opslin@opslin.com" className="text-indigo-600 hover:text-indigo-700 underline">opslin@opslin.com</a>.
           </p>
         </section>
 
@@ -77,7 +77,7 @@ export default function PrivacyPage() {
           <h2 className="text-xl font-semibold">Data Retention and Deletion</h2>
           <p className="text-zinc-600 leading-7">
             You may request data export or deletion by contacting us at{" "}
-            <a href="mailto:hello@shotlin.in" className="text-indigo-600 hover:text-indigo-700 underline">hello@shotlin.in</a>.
+            <a href="mailto:opslin@opslin.com" className="text-indigo-600 hover:text-indigo-700 underline">opslin@opslin.com</a>.
             Operational audit records may be retained where required for security, abuse prevention, or legal compliance.
           </p>
         </section>
@@ -94,8 +94,8 @@ export default function PrivacyPage() {
           <h2 className="text-xl font-semibold">Contact</h2>
           <p className="text-zinc-600 leading-7">
             For privacy-related questions, deletion requests, or concerns, contact us at{" "}
-            <a href="mailto:hello@shotlin.in" className="text-indigo-600 hover:text-indigo-700 underline">
-              hello@shotlin.in
+            <a href="mailto:opslin@opslin.com" className="text-indigo-600 hover:text-indigo-700 underline">
+              opslin@opslin.com
             </a>.
           </p>
         </section>

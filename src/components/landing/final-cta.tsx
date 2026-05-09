@@ -15,15 +15,17 @@ export function FinalCta() {
                 Turn your VPS into a deployment platform.
               </h2>
               <p className="landing-description mx-auto mb-8">
-                No credit card required. Starter is free for 6 months during beta while product limits,
-                reliability, and support are validated in the open.
+                No credit card required. Apply for beta access and we&apos;ll review your request.
+                Beta pricing, limits, and reliability are validated in the open.
               </p>
               <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
                 <a
-                  href={siteLinks.register}
+                  href={siteLinks.betaFormUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="landing-btn-primary inline-flex gap-2 px-8 py-4 text-base"
                 >
-                  Start Free Beta
+                  Join Beta
                   <ArrowRight className="size-4" />
                 </a>
                 <a

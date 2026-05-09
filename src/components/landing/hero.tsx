@@ -23,8 +23,8 @@ export function Hero() {
           </p>
 
           <div className="mx-auto mt-8 flex w-full max-w-sm flex-col items-center justify-center gap-3 sm:max-w-none sm:flex-row">
-            <a href={siteLinks.register} className="landing-btn-primary gap-2 px-7 py-3.5 text-base">
-              Start Free Beta
+            <a href={siteLinks.betaFormUrl} target="_blank" rel="noopener noreferrer" className="landing-btn-primary gap-2 px-7 py-3.5 text-base">
+              Join Beta
               <ArrowRight className="size-4" />
             </a>
             <a href="#how-it-works" className="landing-btn-secondary gap-2 px-7 py-3.5 text-base">
@@ -54,7 +54,7 @@ export function Hero() {
                     <div className="size-3 rounded-full bg-white/20" />
                   </div>
                   <div className="ml-auto truncate rounded-full bg-white/5 px-3 py-1 text-xs text-zinc-400">
-                    app.opslin.in
+                    app.opslin.com
                   </div>
                 </div>
 

@@ -36,16 +36,12 @@ export function Navbar() {
 
         <div className="hidden items-center gap-4 lg:flex">
           <a
-            href={siteLinks.login}
-            className="text-sm font-medium text-zinc-600 transition-colors hover:text-zinc-950"
-          >
-            Login
-          </a>
-          <a
-            href={siteLinks.register}
+            href={siteLinks.betaFormUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             className="landing-btn-primary gap-2 px-5 py-2.5 text-sm"
           >
-            Start Free Beta
+            Join Beta
             <ArrowRight className="size-4" />
           </a>
         </div>
@@ -87,18 +83,12 @@ export function Navbar() {
             <div className="mt-auto grid gap-3 border-t border-black/10 pt-5">
               <SheetClose asChild>
                 <a
-                  href={siteLinks.login}
-                  className="rounded-full border border-black/10 bg-white/60 px-4 py-3 text-center text-sm font-semibold text-zinc-800 transition-colors hover:border-black/20 hover:bg-white"
-                >
-                  Login
-                </a>
-              </SheetClose>
-              <SheetClose asChild>
-                <a
-                  href={siteLinks.register}
+                  href={siteLinks.betaFormUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="landing-btn-primary text-center text-sm"
                 >
-                  Start Free Beta
+                  Join Beta
                 </a>
               </SheetClose>
             </div>

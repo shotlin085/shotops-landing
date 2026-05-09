@@ -6,7 +6,7 @@ export function Footer() {
   return (
     <footer className="landing-dark border-t border-zinc-800 bg-[#0A0A0A] py-12">
       <div className="landing-container">
-        <div className="grid gap-10 md:grid-cols-[1.5fr_0.5fr_0.5fr_0.5fr_0.5fr]">
+        <div className="grid gap-10 md:grid-cols-[1.5fr_0.5fr_0.5fr_0.5fr]">
           <div>
             <Link href="/" className="text-xl font-bold tracking-tight text-white">
               Opslin
@@ -16,10 +16,12 @@ export function Footer() {
               A beta control plane for Linux servers.
             </p>
             <a
-              href={siteLinks.register}
+              href={siteLinks.betaFormUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="landing-btn-secondary mt-6 inline-flex text-sm"
             >
-              Start Free Beta
+              Join Beta
             </a>
           </div>
 
@@ -35,21 +37,15 @@ export function Footer() {
           </div>
 
           <div>
-            <h2 className="text-sm font-medium text-white">Resources</h2>
-            <div className="mt-4 grid gap-3">
-              {footerColumns.resources.map((link) => (
-                <a key={link.label} href={link.href} className="text-sm text-zinc-500 transition-colors hover:text-white">
-                  {link.label}
-                </a>
-              ))}
-            </div>
-          </div>
-
-          <div>
             <h2 className="text-sm font-medium text-white">Company</h2>
             <div className="mt-4 grid gap-3">
               {footerColumns.company.map((link) => (
-                <a key={link.label} href={link.href} className="text-sm text-zinc-500 transition-colors hover:text-white">
+                <a
+                  key={link.label}
+                  href={link.href}
+                  className="text-sm text-zinc-500 transition-colors hover:text-white"
+                  {...(link.href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                >
                   {link.label}
                 </a>
               ))}

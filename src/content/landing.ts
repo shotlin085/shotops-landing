@@ -346,7 +346,7 @@ export const pricingPlans = [
     name: "Free Beta",
     price: "₹0",
     period: "/mo",
-    summary: "Get started with limited usage",
+    summary: "Private beta access",
     features: [
       "1 server",
       "3 apps",
@@ -355,14 +355,14 @@ export const pricingPlans = [
       "Community support",
       "No credit card required",
     ],
-    cta: "Start Free",
+    cta: "Join Beta",
     popular: false,
   },
   {
     name: "Starter",
     price: "₹299",
     period: "/mo",
-    summary: "Free for 6 months during beta",
+    summary: "Beta pricing may change",
     features: [
       "1 server",
       "5 apps",
@@ -370,16 +370,16 @@ export const pricingPlans = [
       "Git deploys",
       "Basic monitoring",
       "Managed databases",
-      "No credit card during beta",
+      "Limited onboarding",
     ],
-    cta: "Start Free Trial",
+    cta: "Join Beta",
     popular: true,
   },
   {
     name: "Pro",
     price: "₹799",
     period: "/mo",
-    summary: "More servers, more apps",
+    summary: "Apply for beta access",
     features: [
       "3 servers",
       "15 apps",
@@ -388,7 +388,7 @@ export const pricingPlans = [
       "Extended logs",
       "Priority support",
     ],
-    cta: "Choose Pro",
+    cta: "Join Beta",
     popular: false,
   },
 ];
@@ -458,7 +458,7 @@ export const faqItems = [
   {
     question: "How do I contact support?",
     answer:
-      "Email hello@shotlin.in for support, feedback, or questions. During beta, response times may vary.",
+      "Email opslin@opslin.com for support, feedback, or questions. During beta, response times may vary.",
   },
 ];
 
@@ -471,14 +471,10 @@ export const footerColumns = {
     { label: "Pricing", href: "#pricing" },
     { label: "FAQ", href: "#faq" },
   ],
-  resources: [
-    { label: "Documentation", href: "https://docshotops.shotlin.in/docs" },
-    { label: "Changelog", href: "https://docshotops.shotlin.in/docs" },
-    { label: "Beta Status", href: "#beta" },
-  ],
   company: [
     { label: "About", href: "#product" },
-    { label: "Contact", href: "mailto:hello@shotlin.in" },
+    { label: "Join Beta", href: "https://tally.so/r/vGEyY0" },
+    { label: "Contact", href: "mailto:opslin@opslin.com" },
   ],
   legal: [
     { label: "Privacy Policy", href: "/privacy" },

@@ -104,8 +104,8 @@ export default function TermsPage() {
           <h2 className="text-xl font-semibold">Contact</h2>
           <p className="text-zinc-600 leading-7">
             For questions about these terms, contact us at{" "}
-            <a href="mailto:hello@shotlin.in" className="text-indigo-600 hover:text-indigo-700 underline">
-              hello@shotlin.in
+            <a href="mailto:opslin@opslin.com" className="text-indigo-600 hover:text-indigo-700 underline">
+              opslin@opslin.com
             </a>.
           </p>
         </section>

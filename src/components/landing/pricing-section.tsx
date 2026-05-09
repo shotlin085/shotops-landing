@@ -9,9 +9,9 @@ export function PricingSection() {
       <Reveal className="landing-container landing-reveal">
         <div className="mx-auto max-w-3xl text-center">
           <p className="landing-label">Pricing</p>
-          <h2 className="landing-heading mx-auto">Simple beta pricing in INR.</h2>
+          <h2 className="landing-heading mx-auto">Private beta access — simple pricing in INR.</h2>
           <p className="landing-description mx-auto mt-4">
-            Start free. Upgrade when you need more capacity. Beta pricing may change as the product matures.
+            Apply for beta access. Beta pricing may change as the product matures.
           </p>
         </div>
 
@@ -54,7 +54,9 @@ export function PricingSection() {
                 </ul>
 
                 <a
-                  href={siteLinks.register}
+                  href={siteLinks.betaFormUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={[
                     plan.popular ? "landing-btn-primary" : "landing-btn-secondary",
                     "w-full text-center text-sm",
@@ -68,7 +70,7 @@ export function PricingSection() {
         </div>
 
         <p className="mx-auto mt-8 max-w-2xl text-center text-sm leading-6 text-zinc-500">
-          Beta pricing may change as the product matures. Free and Starter plans require no payment method during beta.
+          Beta pricing may change as the product matures. Access is limited during beta.
           Need more capacity?{" "}
           <a href={`mailto:${siteLinks.contactEmail}`} className="text-indigo-600 hover:text-indigo-700 underline">
             Contact us
