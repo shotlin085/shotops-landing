@@ -12,7 +12,7 @@ export function Hero() {
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_8%,rgba(99,102,241,0.18),transparent_30%),linear-gradient(180deg,rgba(255,255,255,0.76),rgba(247,244,238,0.9)_45%,rgba(239,233,222,0.92))]" />
       <div className="landing-container relative">
         <div className="mx-auto max-w-5xl text-center">
-          <AnimatedShinyText>Private beta — early access for VPS owners</AnimatedShinyText>
+          <AnimatedShinyText>Private beta— early access for VPS owners</AnimatedShinyText>
 
           <h1 className="mx-auto mt-7 max-w-5xl text-center text-4xl font-semibold leading-[1.03] tracking-normal text-zinc-950 sm:text-6xl lg:text-7xl">
             {brand.tagline}
