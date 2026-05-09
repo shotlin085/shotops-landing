@@ -11,6 +11,7 @@ import { JoinBetaSection } from "@/components/landing/join-beta-section";
 import { Navbar } from "@/components/landing/navbar";
 import { PricingSection } from "@/components/landing/pricing-section";
 import { ProblemSection } from "@/components/landing/problem-section";
+import { ProductPreviewSection } from "@/components/landing/product-preview-section";
 import { SecuritySection } from "@/components/landing/security-section";
 import { SolutionSection } from "@/components/landing/solution-section";
 import { TrustBar } from "@/components/landing/trust-bar";
@@ -51,6 +52,7 @@ export default function LandingPage() {
         <WhyOpslinSection />
         <HowItWorks />
         <WorkflowSection />
+        <ProductPreviewSection />
         <FeatureGrid />
         <ArchitectureSection />
         <SecuritySection />
