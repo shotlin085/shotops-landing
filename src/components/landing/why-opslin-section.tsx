@@ -9,7 +9,7 @@ const cards = [
   },
   {
     icon: Wrench,
-    title: "What we are building during beta",
+    title: "What we are building during beta.",
     copy: "During beta, we are focused on reliable Git deployments, safer environment-variable workflows, database connectivity, custom domains, SSL automation, health checks, deployment timelines, rollback, and server monitoring. Early users help us validate real-world VPS providers, frameworks, and deployment patterns.",
   },
 ];
